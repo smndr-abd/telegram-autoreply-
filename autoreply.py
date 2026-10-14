@@ -1,8 +1,8 @@
 import time
 from telethon import TelegramClient, events
 
-API_ID = 31229159              # from my.telegram.org
-API_HASH = "197d9063e033def518f80e3caf481c19"
+API_ID = 12345678 # must add your own api id          # from my.telegram.org
+API_HASH = "a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6" # must add your own api hash
 REPLY = "Hey there! I'm not online right now but I'll answer when I'm back."
 COOLDOWN = 6 * 3600          # reply to each person at most once per 6 hours
 
