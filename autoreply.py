@@ -23,5 +23,5 @@ async def auto_reply(event):
     last_replied[sender.id] = now
     await event.reply(REPLY)
 
-client.start()  # first run asks for your phone number and login code
+client.start()  # first run asks for your phone number and login code and your 2-step verification if needed
 client.run_until_disconnected()
